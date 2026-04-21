@@ -1,6 +1,6 @@
 import 'package:fpdart/fpdart.dart';
 import 'package:injectable/injectable.dart';
-import 'package:numbers_app/core/error/error.dart';
+import 'package:numbers_app/core/error/failure.dart';
 import 'package:numbers_app/features/data/models/number_model.dart';
 
 abstract interface class NumberLocalDataSource {

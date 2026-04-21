@@ -1,7 +1,7 @@
 import 'package:fpdart/fpdart.dart';
 import 'package:injectable/injectable.dart';
 
-import '../../../core/error/error.dart';
+import '../../../core/error/failure.dart';
 import '../models/number_model.dart';
 
 abstract interface class NumberRemoteDataSource {

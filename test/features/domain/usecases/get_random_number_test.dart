@@ -2,7 +2,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
-import 'package:numbers_app/core/error/error.dart';
+import 'package:numbers_app/core/error/failure.dart';
 import 'package:numbers_app/core/usecase/usecase.dart';
 import 'package:numbers_app/features/domain/entities/number_entity.dart';
 import 'package:numbers_app/features/domain/repositories/number_repository.dart';

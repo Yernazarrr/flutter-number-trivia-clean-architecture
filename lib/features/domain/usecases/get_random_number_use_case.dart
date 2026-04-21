@@ -1,7 +1,7 @@
 import 'package:fpdart/fpdart.dart';
 import 'package:injectable/injectable.dart';
 
-import '../../../core/error/error.dart';
+import '../../../core/error/failure.dart';
 import '../../../core/usecase/usecase.dart';
 import '../entities/number_entity.dart';
 import '../repositories/number_repository.dart';

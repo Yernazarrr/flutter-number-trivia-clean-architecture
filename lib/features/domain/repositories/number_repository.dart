@@ -1,6 +1,6 @@
 import 'package:fpdart/fpdart.dart';
 
-import '../../../core/error/error.dart';
+import '../../../core/error/failure.dart';
 import '../entities/number_entity.dart';
 
 abstract interface class NumberRepository {

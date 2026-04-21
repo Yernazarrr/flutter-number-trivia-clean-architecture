@@ -8,7 +8,7 @@ import 'dart:async' as _i3;
 import 'package:fpdart/fpdart.dart' as _i4;
 import 'package:mockito/mockito.dart' as _i1;
 import 'package:mockito/src/dummies.dart' as _i7;
-import 'package:numbers_app/core/error/error.dart' as _i5;
+import 'package:numbers_app/core/error/failure.dart' as _i5;
 import 'package:numbers_app/features/domain/entities/number_entity.dart' as _i6;
 import 'package:numbers_app/features/domain/repositories/number_repository.dart'
     as _i2;
