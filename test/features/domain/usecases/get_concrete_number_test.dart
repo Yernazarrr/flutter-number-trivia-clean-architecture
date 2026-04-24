@@ -26,9 +26,9 @@ void main() {
     );
   });
 
-  test('Должен вывести информацию о числе', () async {
-    final number = 1;
-    final numberEntity = NumberEntity(
+  test('Should return information about the number', () async {
+    final testNumber = 1;
+    final testNumberEntity = NumberEntity(
       text: '1 is the first natural number.',
       number: 1,
     );
@@ -36,16 +36,16 @@ void main() {
     // Arrange
     when(
       mockNumberRepository.getConcreteNumber(number: anyNamed('number')),
-    ).thenAnswer((_) async => Right(numberEntity));
+    ).thenAnswer((_) async => Right(testNumberEntity));
 
     // Act
     final result = await getConcreteNumberUseCase.call(
-      GetConcreteNumberUseCaseParams(number: number),
+      GetConcreteNumberUseCaseParams(number: testNumber),
     );
 
     // Assert
-    expect(result, Right(numberEntity));
-    verify(mockNumberRepository.getConcreteNumber(number: number));
+    expect(result, Right(testNumberEntity));
+    verify(mockNumberRepository.getConcreteNumber(number: testNumber));
     verifyNoMoreInteractions(mockNumberRepository);
   });
 }

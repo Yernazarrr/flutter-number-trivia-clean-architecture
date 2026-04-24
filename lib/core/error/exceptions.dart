@@ -1,53 +1,53 @@
 class ServerException implements Exception {
   final String message;
 
-  ServerException(this.message);
+  ServerException({required this.message});
 
   @override
-  String toString() => 'ServerException: $message';
+  String toString() => 'ServerException(message: "$message")';
 }
 
 class CacheException implements Exception {
   final String message;
 
-  CacheException(this.message);
+  CacheException({required this.message});
 
   @override
-  String toString() => 'CacheException: $message';
+  String toString() => 'CacheException(message: "$message")';
 }
 
 class InvalidInputException implements Exception {
   final String message;
 
-  InvalidInputException(this.message);
+  InvalidInputException({required this.message});
 
   @override
-  String toString() => 'InvalidInputException: $message';
+  String toString() => 'InvalidInputException(message: "$message")';
 }
 
 class UnexpectedException implements Exception {
   final String message;
 
-  UnexpectedException(this.message);
+  UnexpectedException({required this.message});
 
   @override
-  String toString() => 'UnexpectedException: $message';
+  String toString() => 'UnexpectedException(message: "$message")';
 }
 
 class NetworkException implements Exception {
   final String message;
 
-  NetworkException(this.message);
+  NetworkException({required this.message});
 
   @override
-  String toString() => 'NetworkException: $message';
+  String toString() => 'NetworkException(message: "$message")';
 }
 
 class NotFoundException implements Exception {
   final String message;
 
-  NotFoundException(this.message);
+  NotFoundException({required this.message});
 
   @override
-  String toString() => 'NotFoundException: $message';
+  String toString() => 'NotFoundException(message: "$message")';
 }

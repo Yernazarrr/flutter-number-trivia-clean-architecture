@@ -26,7 +26,7 @@ void main() {
     );
   });
 
-  test('Должен вывести информацию о случайном числе', () async {
+  test('Should return random number trivia', () async {
     final numberEntity = NumberEntity(
       text: '1 is the first natural number.',
       number: 1,

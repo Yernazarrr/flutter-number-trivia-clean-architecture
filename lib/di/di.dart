@@ -10,4 +10,4 @@ final getIt = GetIt.instance;
   preferRelativeImports: true,
   asExtension: true,
 )
-void serviceLocator() => getIt.init();
+Future<void> serviceLocator() async => await getIt.init();

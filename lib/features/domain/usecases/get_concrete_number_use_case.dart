@@ -1,10 +1,10 @@
 import 'package:equatable/equatable.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:injectable/injectable.dart';
-import 'package:numbers_app/core/error/failure.dart';
-import 'package:numbers_app/core/usecase/usecase.dart';
-import 'package:numbers_app/features/domain/entities/number_entity.dart';
 
+import '../../../core/error/failure.dart';
+import '../../../core/usecase/usecase.dart';
+import '../entities/number_entity.dart';
 import '../repositories/number_repository.dart';
 
 @lazySingleton
