@@ -19,8 +19,8 @@ The project is designed as a scalable and production-ready template for building
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Yernazarrr/flutter-number-trivia-clean-architecture/main/screenshots/screenshot1.png" width="300"/>
-  <img src="https://raw.githubusercontent.com/Yernazarrr/flutter-number-trivia-clean-architecture/main/screenshots/screenshot2.png" width="300"/>
+  <img src="https://raw.githubusercontent.com/Yernazarrr/flutter-number-trivia-clean-architecture/main/screenshots/demo_app_dark_theme.png" width="300"/>
+  <img src="https://raw.githubusercontent.com/Yernazarrr/flutter-number-trivia-clean-architecture/main/screenshots/demo_app_light_theme.png" width="300"/>
 </div>
 
 ## 📁 Project Structure
